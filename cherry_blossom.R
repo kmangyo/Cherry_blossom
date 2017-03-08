@@ -49,4 +49,4 @@ plot<-ggplot(d, aes(x, y, frame=x)) + geom_image(aes(image=image), size=.03)
 ani.options(interval = .2)
 gganimate(plot, 'cherry_int.gif')
 
-# https://ezgif.com/resize/ezgif-1-48a374c8e3.gif
+# Result is http://imgur.com/pg54qXQ
